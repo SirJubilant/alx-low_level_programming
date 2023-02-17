@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <unistd.h>
 /**
  *main- this program prints a string to the standard error
