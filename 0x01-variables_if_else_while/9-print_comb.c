@@ -12,7 +12,8 @@ int main(void)
 	 * use only putchar
 	 */
 	int x;
-for (x = 0 ; x < 10 ; x++)
+
+	for (x = 0 ; x < 10 ; x++)
 	{
 		putchar((x % 10) + '0');
 		if (x == 9)
