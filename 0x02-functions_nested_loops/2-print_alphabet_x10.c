@@ -6,7 +6,7 @@
 void print_alphabet_x10(void)
 {
 int newline = 0;
-char = low;
+char low;
 
 while (newline < 10)
 {
