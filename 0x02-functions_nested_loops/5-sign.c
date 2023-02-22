@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints sign of a number.
- * @c: the character to be checked
+ * @n: the character to be checked.
  * Return: 1 if n is greater than 0,
  * 0  if n equals 0,
  * -1 if n is less than 1
@@ -22,7 +22,7 @@ return (0);
 }
 else
 {
-_putchar (1);
+_putchar (-);
 return (-1);
 }
 }
