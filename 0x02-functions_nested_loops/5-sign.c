@@ -7,7 +7,8 @@
  * 0  if n equals 0,
  * -1 if n is less than 1
  */
-int print_sign(int c)
+
+int print_sign(int n)
 {
 if (n > 0)
 {
