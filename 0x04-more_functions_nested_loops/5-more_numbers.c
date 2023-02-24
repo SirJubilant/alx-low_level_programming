@@ -9,11 +9,11 @@ void more_numbers(void)
 {
 	int num, line;
 
-	for (count = 0; count <= 9; count++)
+	for (line = 0; line <= 9; line++)
 	{
-		for (line = 0; line <= 14; line++)
+		for (num = 0; num <= 14; num++)
 		{
-			_putchar((j % 10) + '0');
+			_putchar((num % 10) + '0');
 
 		}
 		_putchar('\n');
