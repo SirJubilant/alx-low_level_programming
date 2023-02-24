@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Almighty Fizzbuzz, prints numbers from 1 to 100,
+ * main - Fizzbuzz, prints numbers from 1 to 100,
  *        but any numbers which is multiple of 3, print Fizz,
  *        and any numbers which is multiple of 5 print Buzz,
  *        and numbers both multiple of 3 & 5,print FizzBuzz.
