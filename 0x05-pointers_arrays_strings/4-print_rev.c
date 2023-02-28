@@ -11,14 +11,17 @@ void print_rev(char *s)
 
 	len = 0;
 
-	while (s[len] != '\0')/*loops thru string len & count except last null char*/
+	while (*s != '\0')
 	{
 		len++;
+		s++;
 	}
 
-	for (rev = len - 1; rev >= 0; rev--)
+	s--;
+	for (rev = len; rev >= 0; rev--)
 	{
-		_putchar(s[rev]);
+		_putchar(*s);
+		s--;
 	}
 
 	_putchar('\n');
